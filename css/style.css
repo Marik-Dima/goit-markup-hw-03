@@ -330,6 +330,8 @@ body {
 /* скидуємо оформлення тексту для прикладів роботи */
 .example{
     text-decoration: none;
+    margin:0;
+    display: block;
 }
 /* стиль для заголовків прикладів робіт */
 .example-title{
@@ -339,7 +341,7 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
-    margin-top: 20px;
+    margin-top: 0;
 }
 /* стиль для опису категорій(типів) робіт */
 .example-category{
@@ -350,7 +352,20 @@ body {
     margin: 0;
    
 }
-/* стиль длдетального опису прикладів робіт */
+/* зображення прикладів робіт */
+.examples-img{
+    display: block;
+}
+/* нижня рамка прикладив робіт */
+.example .description{
+    margin: 0;
+    padding: 20px 24px;
+    border-bottom: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+    border-left: 1px solid #ECECEC;
+
+}
+/* стиль для детального опису прикладів робіт */
 .example-description{
     color: var(--primary-white-color);
     font-size: 18px;
