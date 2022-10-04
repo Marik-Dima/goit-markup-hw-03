@@ -431,7 +431,7 @@ body {
     
 }
 .footer-adr-list .item{
-    display: inline-block;
+    display: block;
     margin-top: 0;
     margin-bottom: 0;
 }
