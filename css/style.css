@@ -418,7 +418,6 @@ body {
 .footer .logo{
     color:var(--primary-white-color);
     margin-right: 0;
-
 }
 
 /* колір емайлу та телефону в футері */
@@ -427,10 +426,6 @@ body {
     text-decoration: none;  
 }
 .footer-adr-list .item{
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
 }
 
 /* відстань між елементами переліку контактів в футерь */
