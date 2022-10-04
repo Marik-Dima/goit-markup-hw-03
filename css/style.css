@@ -143,10 +143,13 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
+
 /* заголовок головної ідеї */
 .hero-title{
-    margin-top: 0;
-    margin-bottom: 30;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0 200px;
 
     color:var(--primary-white-color) ;
     font-weight: 900;
