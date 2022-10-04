@@ -398,14 +398,19 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-top: 20px;
+    margin-bottom: 0;
 }
 /* перелік контактів(адресс) у футері */
 .footer-adr-list{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 /* фізична адресса в футері */
 .f-adress{
     color: var(--primary-white-color);
-    text-decoration: none;   
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -413,12 +418,17 @@ body {
 .footer .logo{
     color:var(--primary-white-color);
     margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* колір емайлу та телефону в футері */
 .footer-adr-list .link{
     color: var(--transp-foot-text-color);
     text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
 }
 /* відстань між елементами переліку контактів в футерь */
 .footer-adr-list .item + .item{
