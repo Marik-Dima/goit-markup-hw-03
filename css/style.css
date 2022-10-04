@@ -424,11 +424,12 @@ body {
 
 /* колір емайлу та телефону в футері */
 .footer-adr-list .link{
+    display: flex;
     color: var(--transp-foot-text-color);
     text-decoration: none;
     margin-top: 0;
     margin-bottom: 0;
-    display: block;
+    
 }
 /* відстань між елементами переліку контактів в футерь */
 .footer-adr-list .item + .item{
