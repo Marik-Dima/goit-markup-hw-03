@@ -424,10 +424,7 @@ body {
 /* колір емайлу та телефону в футері */
 .footer-adr-list .link{
     color: var(--transp-foot-text-color);
-    text-decoration: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    
+    text-decoration: none;  
 }
 .footer-adr-list .item{
     display: block;
