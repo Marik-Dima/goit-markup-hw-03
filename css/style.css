@@ -154,7 +154,7 @@ body {
     color:var(--primary-white-color) ;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
+    line-height: 1.364; /* если поставить множитель 1.36 - тогда размер блока будет меньше на 2px */
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
@@ -230,9 +230,10 @@ body {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.72;
     margin-top:0;
     margin-bottom: 0;
+    letter-spacing: 0.03em;
 }
 
 /* секція чим ми займаємось */
