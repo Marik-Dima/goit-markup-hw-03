@@ -427,7 +427,7 @@ body {
     display: inline-block;
 }
 .footer-adr-list .item{
-}
+display: block;}
 
 /* відстань між елементами переліку контактів в футерь */
 .footer-adr-list .item + .item{
