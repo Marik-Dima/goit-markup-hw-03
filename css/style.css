@@ -424,6 +424,7 @@ body {
 .footer-adr-list .link{
     color: var(--transp-foot-text-color);
     text-decoration: none;  
+    display: inline-block;
 }
 .footer-adr-list .item{
 }
