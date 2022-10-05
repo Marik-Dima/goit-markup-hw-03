@@ -245,6 +245,7 @@ body {
 .work-list{
     display: flex;
 }
+
 .work-list .item + .item{
     margin-left: 30px;
 }
