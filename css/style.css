@@ -66,7 +66,6 @@ body {
 
 .main-nav{
     display: flex;
-    align-items: center;
 }
 /* стиль логотипу */
 .logo{
@@ -89,11 +88,15 @@ body {
 /* стиль меню навігації */
 .site-nav, .cont-nav{
     display: flex;
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    
 }
 
 .cont-nav .item + .item,
@@ -133,6 +136,7 @@ body {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+    
 
     color: var(--secondary-text-color);   
     text-decoration: none;
@@ -332,7 +336,7 @@ body {
     flex-wrap: wrap;
 }
 .examples .item{
-    width: calc((100%-60px)/3);
+    width: calc((100% - 60px)/3);
     margin-right: 30px;
     margin-bottom: 30px;
 }
